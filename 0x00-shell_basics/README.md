@@ -1,7 +1,5 @@
 <h1>0x00. Shell, basics</h1>
 
-<hr>
-
 ![alt text](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/205/image.jpg)
 
 <br>
