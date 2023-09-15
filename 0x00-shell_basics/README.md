@@ -1,6 +1,104 @@
-<body>
-    <h1>Shell basic executable files</h1>
-    <table>
+<h1>0x00. Shell, basics</h1>
+
+<hr>
+
+![alt text](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/205/image.jpg)
+
+<br>
+
+<h2>Resources</h2>
+<h3>Read or watch:</h3>
+<ul>
+    <li><a href="https://intranet.alxswe.com/rltoken/vwO91sqNBgRL03BLu-ueiA" target="_blank">What is "The Shell"?</a></li>
+    <li><a href="https://intranet.alxswe.com/rltoken/iblidp7yp6i-QpT8rDXHaA" target="_blank">Navigation</a></li>
+    <li><a href="https://intranet.alxswe.com/rltoken/xEKUCnQsMH0esQ6fJU5vLA" target="_blank">Looking Around</a></li>
+    <li><a href="https://intranet.alxswe.com/rltoken/HUhQ73fFR1GOC5nb4r-mDw" target="_blank">A Guided Tour</a></li>
+    <li><a href="https://intranet.alxswe.com/rltoken/olv-1tj4d1LA57Z0PrLNvw" target="_blank">Manipulating Files</a></li>
+    <li><a href="https://intranet.alxswe.com/rltoken/zUtux3Pm0BkvtwXzbTtkmA" target="_blank">Working With Commands</a></li>
+    <li><a href="https://intranet.alxswe.com/rltoken/rddGdsqLf8_kRzp12RaD4A" target="_blank">Reading Man pages</a></li>
+    <li><a href="https://intranet.alxswe.com/rltoken/AGxMxuS5IeW8VmEvJyhwvw" target="_blank">Keyboard shortcuts for Bash</a></li>
+    <li><a href="https://wiki.ubuntu.com/LTS" target="_blank">LTS</a></li>
+    <li><a href="https://intranet.alxswe.com/rltoken/cE8ZA3kgEaFhB-IDNv31bQ" target="_blank">Shebang</a></li>
+</ul>
+
+<hr>
+
+<h2>General</h2>
+<ul>
+    <li>What does RTFM mean?</li>
+    <li>What is a Shebang</li>
+</ul>
+
+<hr>
+
+<h2>What is the Shell</h2>
+<ul>
+    <li>What is the shell</li>
+    <li>What is the difference between a terminal and a shell</li>
+    <li>What is the shell prompt</li>
+    <li>How to use the history (the basics)</li>
+</ul>
+
+<hr>
+
+<h2>Navigation</h2>
+<ul>
+    <li>What do the commands or built-ins <code>cd</code>, <code>pwd</code>, <code>ls</code> do</li>
+    <li>How to navigate the filesystem</li>
+    <li>What are the . and .. directories</li>
+    <li>What is the working directory, how to print it and how to change it</li>
+    <li>What is the root directory</li>
+    <li>What is the home directory and how to go there</li>
+    <li>What is the difference between the root directory and the home directory of the user root</li>
+    <li>What are the characteristics of hidden files and how to list them</li>
+    <li>What does the command <code>cd -</code> do</li>
+</ul>
+
+<hr>
+
+<h2>Looking Around</h2>
+<ul>
+    <li>What do the commands <code>ls</code>, <code>less</code>, <code>file</code> do</li>
+    <li>How do you use options and arguments with commands</li>
+    <li>Understand the <code>ls</code> long format and how to display it</li>
+    <li>What does the <code>ln</code> command do</li>
+    <li>What do you find in the most common/important directories</li>
+    <li>What is a symbolic link</li>
+    <li>What is a hard link</li>
+    <li>What is the difference between a hard link and a symbolic link</li>
+</ul>
+
+<hr>
+
+<h2>Manipulating Files</h2>
+<ul>
+    <li>What do the commands <code>cp</code>, <code>mv</code>, <code>rm</code>, <code>mkdir</code> do</li>
+    <li>What are wildcards and how do they work</li>
+    <li>How to use wildcards</li>
+</ul>
+
+<hr>
+
+<h2>Working with Commands</h2>
+<ul>
+    <li>What do <code>type</code>, <code>which</code>, <code>help</code>, <code>man</code> commands do</li>
+    <li>What are the different kinds of commands</li>
+    <li>What is an alias</li>
+    <li>When do you use the command help instead of man</li>
+</ul>
+
+<hr>
+
+<h2>What is the Shell</h2>
+<ul>
+    <li>How to read a man page</li>
+    <li>What are man page sections</li>
+    <li>What are the section numbers for User commands, System calls and Library functions</li>
+</ul>
+
+<hr>
+
+<table>
         <tr>
             <td class="table w1">FILE</td>
             <td class="table w2">DESCRIPTION</td>
@@ -87,5 +185,3 @@
             </td>
         </tr>
     </table>
-</body>
-
