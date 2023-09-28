@@ -8,7 +8,7 @@ do
     echo "Hour: $i"
 
     j=0
-    while [ $j -le 60 ]
+    while [ $j -le 58 ]
     do
         j=$((j + 1))
         echo "$j"
