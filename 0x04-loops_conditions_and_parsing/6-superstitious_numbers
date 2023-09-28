@@ -7,13 +7,13 @@
 i=1
 while [ $i -lt 21 ]
 do
-    if [ $i -eq 3 ]
+    if [ $i -eq 4 ]
     then
         echo "bad luck from China"
-    elif [ $i -eq 8 ]
+    elif [ $i -eq 9 ]
     then
         echo "bad luck from Japan"
-    elif [ $i -eq 16 ]
+    elif [ $i -eq 17 ]
     then
         echo "bad luck from Italy"
     else
