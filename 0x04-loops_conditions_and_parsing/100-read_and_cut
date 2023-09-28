@@ -9,7 +9,8 @@ if [ ! -f "$i" ]; then
     exit 1
 fi
 
-while IFS=':' read -r username password uid gid gecos home shell; do
+while IFS=":" read -r username password uid gid gecos home shell
+do
     echo "Username: $username"
     echo "User ID: $uid"
     echo "Home Directory: $home"
