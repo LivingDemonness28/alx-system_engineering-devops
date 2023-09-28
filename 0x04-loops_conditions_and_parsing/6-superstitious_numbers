@@ -4,8 +4,8 @@
 # display "bad luck from Japan" for the 9th element
 # display "bad luck from Italy" for the 17th element
 # display number for the other elements
-i=0
-while [ $i -lt 20 ]
+i=1
+while [ $i -lt 21 ]
 do
     if [ $i -eq 3 ]
     then
