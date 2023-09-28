@@ -15,7 +15,7 @@ do
 		echo "Buzz"
 	elif [ $((i % 3)) -eq 0 && $((i % 5)) -eq 0 ]
 	then
-		"FizzBuzz"
+		echo "FizzBuzz"
 	else
 		echo "$i"
 	fi
