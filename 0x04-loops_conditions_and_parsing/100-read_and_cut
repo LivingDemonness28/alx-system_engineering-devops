@@ -1,4 +1,6 @@
 #!/bin/bash
+# displays username, user id and home directory
+# for each line of /etc/passwd.
 
 i="/etc/passwd"
 
