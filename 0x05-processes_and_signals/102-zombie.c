@@ -1,18 +1,12 @@
-/*
- * File: 102-zombie.c
- * Auth: Brennan D Baraban
- */
-
-#include <stdio.h>
-#include <stdlib.h>
 #include <sys/types.h>
 #include <sys/wait.h>
 #include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * infinite_while - Run an infinite while loop.
- *
- * Return: Always 0.
+ * Return: 0 (Always).
  */
 int inf_while(void)
 {
